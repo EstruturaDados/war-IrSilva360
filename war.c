@@ -18,7 +18,7 @@
 #include <string.h>
 #include <time.h>
 #include <locale.h>
-#include <windows.h>
+//#include <windows.h>
 
 // --- Definições Gerais ---
 #define TAM_NOME 50
@@ -64,8 +64,8 @@ void liberarMemoria(Territorio *territorios);
 // --- Função Principal ---
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
-    SetConsoleCP(CP_UTF8);
-    SetConsoleOutputCP(CP_UTF8);
+    //SetConsoleCP(CP_UTF8);
+    //SetConsoleOutputCP(CP_UTF8);
     srand((unsigned int) time(NULL));
     limpaTela();
     
