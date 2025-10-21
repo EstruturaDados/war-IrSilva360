@@ -374,6 +374,7 @@ int verificarVencedorFinal(Territorio *territorios, int total) {
 void liberarMemoria(Territorio *territorios) {
     free(territorios);
 }
+
 // Inclusão das bibliotecas padrão necessárias para entrada/saída, alocação de memória, manipulação de strings e tempo.
 
 // --- Constantes Globais ---
